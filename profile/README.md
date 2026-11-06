@@ -4,7 +4,7 @@ Moraph's social impact program: free financial literacy, help reaching healthcar
 
 - Website: https://moraph.org (volunteering: https://volunteer.moraph.org)
 - Parent company: [Moraph LLC](https://www.moraph.com)
-- Portfolio project board: TODO(confirm): link the "Moraph" portfolio project once it exists
+- Portfolio project board: [Portfolio · Moraph](https://github.com/orgs/moraph-com/projects/7)
 
 Moraph for Good gives Moraph's software, security expertise and people's time, donated or discounted, to nonprofits, community lenders, clinics and small public bodies. It is not a registered charity and does not accept donations.
 
@@ -28,6 +28,6 @@ Moraph for Good gives Moraph's software, security expertise and people's time, d
 - General enquiries: hello@moraph.org
 - Organizations that want to host a program: https://moraph.org/apply
 - Partnerships: https://moraph.org/partners
-- Security issues: please do not open a public issue; use the repository's Security tab ("Report a vulnerability") or email hello@moraph.org.
+- Security issues: please do not open a public issue; use the repository's Security tab ("Report a vulnerability") or email hello@moraph.org. See our [security policy](https://github.com/moraph-org/.github/blob/main/SECURITY.md).
 
 Proprietary — © Moraph LLC. All rights reserved.
