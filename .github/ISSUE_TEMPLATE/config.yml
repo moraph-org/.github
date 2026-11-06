@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Moraph website
+    url: https://www.moraph.com
+    about: Product information, support and contact details for Moraph.
+  - name: Moraph for Good (moraph.org)
+    url: https://moraph.org
+    about: Moraph's social impact program for nonprofits, community lenders, clinics and small public bodies.

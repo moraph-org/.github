@@ -1,0 +1,25 @@
+name: Task
+description: A specific, well-defined piece of work (chore, maintenance, content, ops)
+type: Task
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Why is this needed? Link related issues, docs or conversations.
+    validations:
+      required: true
+  - type: textarea
+    id: todo
+    attributes:
+      label: What needs to be done
+      value: |
+        - [ ] 
+        - [ ] 
+    validations:
+      required: true
+  - type: textarea
+    id: done
+    attributes:
+      label: Definition of done
+      description: Anything beyond the checklist (tests, docs, deploy, owner sign-off).

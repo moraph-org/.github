@@ -1,0 +1,43 @@
+name: Epic
+description: A shippable body of work, broken down into Features, Tasks and Bugs (as sub-issues)
+title: "[Epic]: "
+type: Epic
+body:
+  - type: markdown
+    attributes:
+      value: |
+        An Epic is a shippable body of work. After creating it, add its Features, Tasks and Bugs as **sub-issues**, and add it as a sub-issue of its parent **Initiative**.
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Outcome
+      description: What will be true for users or the business when this ships?
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: The pieces of work included. Convert each into a sub-issue as it is planned.
+      value: |
+        - [ ] 
+        - [ ] 
+    validations:
+      required: true
+  - type: textarea
+    id: out-of-scope
+    attributes:
+      label: Out of scope
+      description: What this Epic explicitly will not do.
+  - type: textarea
+    id: metrics
+    attributes:
+      label: Success metrics
+      description: How we will measure success after release.
+    validations:
+      required: true
+  - type: input
+    id: initiative
+    attributes:
+      label: Parent initiative
+      placeholder: "e.g. moraph-org/moraph-org#12"
